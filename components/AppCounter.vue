@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>Count {{ count }}</div>
-    <button @click="countUp">CountUp</button>
+    <v-btn class="mt-2" @click="countUp">CountUp</v-btn>
   </div>
 </template>
 
